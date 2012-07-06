@@ -1,0 +1,1031 @@
+!SESSION 2012-07-05 11:27:30.075 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-07-05 11:37:38.207
+!MESSAGE Indexed 'project01' (0 sources, 37 headers) in 1.14 sec: 833 declarations; 890 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.06%)
+
+!ENTRY org.eclipse.ui 4 0 2012-07-05 11:38:05.164
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.core.runtime.AssertionFailedException: assertion failed: )
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:138)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+Caused by: org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:110)
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:96)
+	at org.eclipse.ui.internal.ide.EditorAreaDropAdapter.asyncDrop(EditorAreaDropAdapter.java:131)
+	at org.eclipse.ui.internal.ide.EditorAreaDropAdapter.access$0(EditorAreaDropAdapter.java:87)
+	at org.eclipse.ui.internal.ide.EditorAreaDropAdapter$1.run(EditorAreaDropAdapter.java:81)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	... 22 more
+
+!ENTRY org.eclipse.ui 4 0 2012-07-05 11:38:26.536
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.core.runtime.AssertionFailedException: assertion failed: )
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:138)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+Caused by: org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:110)
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:96)
+	at org.eclipse.ui.internal.ide.EditorAreaDropAdapter.asyncDrop(EditorAreaDropAdapter.java:131)
+	at org.eclipse.ui.internal.ide.EditorAreaDropAdapter.access$0(EditorAreaDropAdapter.java:87)
+	at org.eclipse.ui.internal.ide.EditorAreaDropAdapter$1.run(EditorAreaDropAdapter.java:81)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	... 22 more
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2012-07-05 12:02:09.068
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: C:\Users\robotics\Desktop\C Programming\project01\Debug\project01.exe not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-07-05 12:19:15.346
+!MESSAGE Indexed 'project02' (0 sources, 37 headers) in 0.23 sec: 833 declarations; 890 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.06%)
+!SESSION 2012-07-06 10:16:29.763 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_02
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-07-06 10:32:32.135
+!MESSAGE Indexed 'project02v02' (1 sources, 41 headers) in 0.67 sec: 1,717 declarations; 1,944 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.03%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-07-06 10:32:41.771
+!MESSAGE Indexed 'project02v01' (1 sources, 41 headers) in 0.28 sec: 1,717 declarations; 1,944 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.03%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-07-06 10:32:52.150
+!MESSAGE Indexed 'project01v01' (1 sources, 39 headers) in 0.27 sec: 1,541 declarations; 1,763 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.03%)
+
+!ENTRY org.eclipse.ui 4 0 2012-07-06 10:32:59.430
+!MESSAGE Unable to create editor ID org.eclipse.cdt.ui.editor.CEditor: The file does not exist.
+!STACK 1
+org.eclipse.core.runtime.CoreException: The file does not exist.
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.create(ResourceFileBuffer.java:237)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.connect(TextFileBufferManager.java:112)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.createFileInfo(TextFileDocumentProvider.java:559)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.createFileInfo(CDocumentProvider.java:857)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:478)
+	at org.eclipse.cdt.internal.ui.editor.CDocumentProvider.connect(CDocumentProvider.java:779)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4213)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:237)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1451)
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:169)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.internalDoSetInput(CEditor.java:1495)
+	at org.eclipse.cdt.internal.ui.editor.CEditor.doSetInput(CEditor.java:1458)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3200)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:759)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:756)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2649)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3218)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3245)
+	at org.eclipse.ui.internal.EditorManager.createSite(EditorManager.java:828)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:647)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:465)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.PartPane.setVisible(PartPane.java:313)
+	at org.eclipse.ui.internal.presentations.PresentablePart.setVisible(PresentablePart.java:180)
+	at org.eclipse.ui.internal.presentations.util.PresentablePartFolder.select(PresentablePartFolder.java:270)
+	at org.eclipse.ui.internal.presentations.util.LeftToRightTabOrder.select(LeftToRightTabOrder.java:65)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation.selectPart(TabbedStackPresentation.java:473)
+	at org.eclipse.ui.internal.PartStack.refreshPresentationSelection(PartStack.java:1245)
+	at org.eclipse.ui.internal.PartStack.handleDeferredEvents(PartStack.java:1213)
+	at org.eclipse.ui.internal.LayoutPart.deferUpdates(LayoutPart.java:400)
+	at org.eclipse.ui.internal.PartSashContainer.handleDeferredEvents(PartSashContainer.java:1409)
+	at org.eclipse.ui.internal.LayoutPart.deferUpdates(LayoutPart.java:400)
+	at org.eclipse.ui.internal.WorkbenchPage.handleDeferredEvents(WorkbenchPage.java:1495)
+	at org.eclipse.ui.internal.WorkbenchPage.deferUpdates(WorkbenchPage.java:1485)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1459)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditor(WorkbenchPage.java:1514)
+	at org.eclipse.ui.internal.EditorPane.doHide(EditorPane.java:61)
+	at org.eclipse.ui.internal.PartStack.close(PartStack.java:537)
+	at org.eclipse.ui.internal.EditorStack.close(EditorStack.java:206)
+	at org.eclipse.ui.internal.PartStack$1.close(PartStack.java:120)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation$1.handleEvent(TabbedStackPresentation.java:83)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:269)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:278)
+	at org.eclipse.ui.internal.presentations.defaultpresentation.DefaultTabFolder.access$1(DefaultTabFolder.java:1)
+	at org.eclipse.ui.internal.presentations.defaultpresentation.DefaultTabFolder$1.closeButtonPressed(DefaultTabFolder.java:71)
+	at org.eclipse.ui.internal.presentations.PaneFolder.notifyCloseListeners(PaneFolder.java:631)
+	at org.eclipse.ui.internal.presentations.PaneFolder$3.close(PaneFolder.java:206)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1599)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:261)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SUBENTRY 1 org.eclipse.core.filebuffers 4 0 2012-07-06 10:32:59.461
+!MESSAGE The file does not exist.
+
+!ENTRY org.eclipse.ui 2 2 2012-07-06 10:32:59.523
+!MESSAGE Ignored attempt to add saveable that was already registered
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: unknown saveable: org.eclipse.ui.internal.DefaultSaveable@e5f747 from part: org.eclipse.ui.internal.ErrorEditorPart@e5f747
+	at org.eclipse.ui.internal.SaveablesList.logWarning(SaveablesList.java:187)
+	at org.eclipse.ui.internal.SaveablesList.addModel(SaveablesList.java:117)
+	at org.eclipse.ui.internal.SaveablesList.addModels(SaveablesList.java:289)
+	at org.eclipse.ui.internal.SaveablesList.postOpen(SaveablesList.java:695)
+	at org.eclipse.ui.internal.PartList.partOpened(PartList.java:234)
+	at org.eclipse.ui.internal.PartList.access$0(PartList.java:210)
+	at org.eclipse.ui.internal.PartList$1.propertyChanged(PartList.java:40)
+	at org.eclipse.ui.internal.WorkbenchPartReference.fireInternalPropertyChange(WorkbenchPartReference.java:375)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:610)
+	at org.eclipse.ui.internal.PartPane.setVisible(PartPane.java:313)
+	at org.eclipse.ui.internal.presentations.PresentablePart.setVisible(PresentablePart.java:180)
+	at org.eclipse.ui.internal.presentations.util.PresentablePartFolder.select(PresentablePartFolder.java:270)
+	at org.eclipse.ui.internal.presentations.util.LeftToRightTabOrder.select(LeftToRightTabOrder.java:65)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation.selectPart(TabbedStackPresentation.java:473)
+	at org.eclipse.ui.internal.PartStack.refreshPresentationSelection(PartStack.java:1245)
+	at org.eclipse.ui.internal.PartStack.handleDeferredEvents(PartStack.java:1213)
+	at org.eclipse.ui.internal.LayoutPart.deferUpdates(LayoutPart.java:400)
+	at org.eclipse.ui.internal.PartSashContainer.handleDeferredEvents(PartSashContainer.java:1409)
+	at org.eclipse.ui.internal.LayoutPart.deferUpdates(LayoutPart.java:400)
+	at org.eclipse.ui.internal.WorkbenchPage.handleDeferredEvents(WorkbenchPage.java:1495)
+	at org.eclipse.ui.internal.WorkbenchPage.deferUpdates(WorkbenchPage.java:1485)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1459)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditor(WorkbenchPage.java:1514)
+	at org.eclipse.ui.internal.EditorPane.doHide(EditorPane.java:61)
+	at org.eclipse.ui.internal.PartStack.close(PartStack.java:537)
+	at org.eclipse.ui.internal.EditorStack.close(EditorStack.java:206)
+	at org.eclipse.ui.internal.PartStack$1.close(PartStack.java:120)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation$1.handleEvent(TabbedStackPresentation.java:83)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:269)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(AbstractTabFolder.java:278)
+	at org.eclipse.ui.internal.presentations.defaultpresentation.DefaultTabFolder.access$1(DefaultTabFolder.java:1)
+	at org.eclipse.ui.internal.presentations.defaultpresentation.DefaultTabFolder$1.closeButtonPressed(DefaultTabFolder.java:71)
+	at org.eclipse.ui.internal.presentations.PaneFolder.notifyCloseListeners(PaneFolder.java:631)
+	at org.eclipse.ui.internal.presentations.PaneFolder$3.close(PaneFolder.java:206)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1599)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:261)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4165)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3754)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2012-07-06 10:37:23.777
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: C:\Users\robotics\Desktop\C Programming\project02v01\Debug\project02.exe not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2012-07-06 10:37:35.001
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: C:\Users\robotics\Desktop\C Programming\project02v01\Debug\project02.exe not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-07-06 10:38:36.983
+!MESSAGE Indexed 'project02' (0 sources, 37 headers) in 0.26 sec: 833 declarations; 890 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.06%)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2012-07-06 10:41:22.728
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: C:\Users\robotics\Desktop\C Programming\project01v01\Debug\project01.exe not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-07-06 10:41:38.319
+!MESSAGE Indexed 'project01' (1 sources, 39 headers) in 0.24 sec: 1,541 declarations; 1,763 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.03%)
+
+!ENTRY org.eclipse.cdt.debug.core 4 104 2012-07-06 10:47:46.277
+!MESSAGE The program file specified in the launch configuration does not exist
+!STACK 0
+java.io.FileNotFoundException: C:\Users\robotics\Desktop\C Programming\project02\Debug\project02.exe not found
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:653)
+	at org.eclipse.cdt.debug.core.CDebugUtils.verifyProgramPath(CDebugUtils.java:669)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:84)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-07-06 10:54:28.797
+!MESSAGE Indexed 'project03 (v01)' (0 sources, 37 headers) in 0.19 sec: 833 declarations; 890 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.06%)
+
+!ENTRY org.eclipse.core.resources 4 2 2012-07-06 10:59:51.042
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalArgumentException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI.create(Unknown Source)
+	at java.net.URI.resolve(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.getArtifactTimeStamp(AdditionalInput.java:376)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.needsRebuild(AdditionalInput.java:337)
+	at org.eclipse.cdt.managedbuilder.internal.core.InputType.needsRebuild(InputType.java:1619)
+	at org.eclipse.cdt.managedbuilder.internal.core.Tool.needsRebuild(Tool.java:3307)
+	at org.eclipse.cdt.managedbuilder.internal.core.ToolChain.needsRebuild(ToolChain.java:2068)
+	at org.eclipse.cdt.managedbuilder.internal.core.FolderInfo.needsRebuild(FolderInfo.java:344)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1685)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1669)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performCleanning(CommonBuilder.java:936)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:858)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:739)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:501)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:450)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:394)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:618)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:597)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:114)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.buildForLaunch(AbstractCLaunchDelegate.java:615)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.buildForLaunch(LocalCDILaunchDelegate.java:471)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:822)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.<init>(Unknown Source)
+	... 35 more
+
+!ENTRY org.eclipse.core.resources 4 2 2012-07-06 11:00:29.119
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalArgumentException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI.create(Unknown Source)
+	at java.net.URI.resolve(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.getArtifactTimeStamp(AdditionalInput.java:376)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.needsRebuild(AdditionalInput.java:337)
+	at org.eclipse.cdt.managedbuilder.internal.core.InputType.needsRebuild(InputType.java:1619)
+	at org.eclipse.cdt.managedbuilder.internal.core.Tool.needsRebuild(Tool.java:3307)
+	at org.eclipse.cdt.managedbuilder.internal.core.ToolChain.needsRebuild(ToolChain.java:2068)
+	at org.eclipse.cdt.managedbuilder.internal.core.FolderInfo.needsRebuild(FolderInfo.java:344)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1685)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1669)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performCleanning(CommonBuilder.java:936)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:858)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:739)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:501)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:450)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:432)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:305)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.<init>(Unknown Source)
+	... 29 more
+
+!ENTRY org.eclipse.core.resources 4 75 2012-07-06 11:00:29.421
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.cdt.managedbuilder.core 4 75 2012-07-06 11:00:29.421
+!MESSAGE Errors running builder 'CDT Builder' on project 'project03 (v01)'.
+!STACK 0
+java.lang.IllegalArgumentException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI.create(Unknown Source)
+	at java.net.URI.resolve(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.getArtifactTimeStamp(AdditionalInput.java:376)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.needsRebuild(AdditionalInput.java:337)
+	at org.eclipse.cdt.managedbuilder.internal.core.InputType.needsRebuild(InputType.java:1619)
+	at org.eclipse.cdt.managedbuilder.internal.core.Tool.needsRebuild(Tool.java:3307)
+	at org.eclipse.cdt.managedbuilder.internal.core.ToolChain.needsRebuild(ToolChain.java:2068)
+	at org.eclipse.cdt.managedbuilder.internal.core.FolderInfo.needsRebuild(FolderInfo.java:344)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1685)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1669)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performCleanning(CommonBuilder.java:936)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:858)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:739)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:501)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:450)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:432)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:305)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.<init>(Unknown Source)
+	... 29 more
+
+!ENTRY org.eclipse.core.resources 4 2 2012-07-06 11:00:43.130
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalArgumentException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI.create(Unknown Source)
+	at java.net.URI.resolve(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.getArtifactTimeStamp(AdditionalInput.java:376)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.needsRebuild(AdditionalInput.java:337)
+	at org.eclipse.cdt.managedbuilder.internal.core.InputType.needsRebuild(InputType.java:1619)
+	at org.eclipse.cdt.managedbuilder.internal.core.Tool.needsRebuild(Tool.java:3307)
+	at org.eclipse.cdt.managedbuilder.internal.core.ToolChain.needsRebuild(ToolChain.java:2068)
+	at org.eclipse.cdt.managedbuilder.internal.core.FolderInfo.needsRebuild(FolderInfo.java:344)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1685)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1669)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performCleanning(CommonBuilder.java:936)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:858)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:739)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:501)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:450)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:432)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:305)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.<init>(Unknown Source)
+	... 29 more
+
+!ENTRY org.eclipse.core.resources 4 75 2012-07-06 11:00:43.430
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.cdt.managedbuilder.core 4 75 2012-07-06 11:00:43.430
+!MESSAGE Errors running builder 'CDT Builder' on project 'project03 (v01)'.
+!STACK 0
+java.lang.IllegalArgumentException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI.create(Unknown Source)
+	at java.net.URI.resolve(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.getArtifactTimeStamp(AdditionalInput.java:376)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.needsRebuild(AdditionalInput.java:337)
+	at org.eclipse.cdt.managedbuilder.internal.core.InputType.needsRebuild(InputType.java:1619)
+	at org.eclipse.cdt.managedbuilder.internal.core.Tool.needsRebuild(Tool.java:3307)
+	at org.eclipse.cdt.managedbuilder.internal.core.ToolChain.needsRebuild(ToolChain.java:2068)
+	at org.eclipse.cdt.managedbuilder.internal.core.FolderInfo.needsRebuild(FolderInfo.java:344)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1685)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1669)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performCleanning(CommonBuilder.java:936)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:858)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:739)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:501)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:450)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:432)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:305)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.<init>(Unknown Source)
+	... 29 more
+
+!ENTRY org.eclipse.core.resources 4 2 2012-07-06 11:00:50.101
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalArgumentException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI.create(Unknown Source)
+	at java.net.URI.resolve(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.getArtifactTimeStamp(AdditionalInput.java:376)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.needsRebuild(AdditionalInput.java:337)
+	at org.eclipse.cdt.managedbuilder.internal.core.InputType.needsRebuild(InputType.java:1619)
+	at org.eclipse.cdt.managedbuilder.internal.core.Tool.needsRebuild(Tool.java:3307)
+	at org.eclipse.cdt.managedbuilder.internal.core.ToolChain.needsRebuild(ToolChain.java:2068)
+	at org.eclipse.cdt.managedbuilder.internal.core.FolderInfo.needsRebuild(FolderInfo.java:344)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1685)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1669)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performCleanning(CommonBuilder.java:936)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:858)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:739)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:501)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:450)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:432)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:305)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.<init>(Unknown Source)
+	... 29 more
+
+!ENTRY org.eclipse.core.resources 4 75 2012-07-06 11:00:50.407
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.cdt.managedbuilder.core 4 75 2012-07-06 11:00:50.407
+!MESSAGE Errors running builder 'CDT Builder' on project 'project03 (v01)'.
+!STACK 0
+java.lang.IllegalArgumentException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI.create(Unknown Source)
+	at java.net.URI.resolve(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.getArtifactTimeStamp(AdditionalInput.java:376)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.needsRebuild(AdditionalInput.java:337)
+	at org.eclipse.cdt.managedbuilder.internal.core.InputType.needsRebuild(InputType.java:1619)
+	at org.eclipse.cdt.managedbuilder.internal.core.Tool.needsRebuild(Tool.java:3307)
+	at org.eclipse.cdt.managedbuilder.internal.core.ToolChain.needsRebuild(ToolChain.java:2068)
+	at org.eclipse.cdt.managedbuilder.internal.core.FolderInfo.needsRebuild(FolderInfo.java:344)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1685)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1669)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performCleanning(CommonBuilder.java:936)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:858)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:739)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:501)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:450)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:432)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:305)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.<init>(Unknown Source)
+	... 29 more
+
+!ENTRY org.eclipse.core.resources 4 2 2012-07-06 11:01:04.656
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalArgumentException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI.create(Unknown Source)
+	at java.net.URI.resolve(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.getArtifactTimeStamp(AdditionalInput.java:376)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.needsRebuild(AdditionalInput.java:337)
+	at org.eclipse.cdt.managedbuilder.internal.core.InputType.needsRebuild(InputType.java:1619)
+	at org.eclipse.cdt.managedbuilder.internal.core.Tool.needsRebuild(Tool.java:3307)
+	at org.eclipse.cdt.managedbuilder.internal.core.ToolChain.needsRebuild(ToolChain.java:2068)
+	at org.eclipse.cdt.managedbuilder.internal.core.FolderInfo.needsRebuild(FolderInfo.java:344)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1685)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1669)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performCleanning(CommonBuilder.java:936)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:858)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:739)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:501)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:450)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:432)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:305)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.<init>(Unknown Source)
+	... 29 more
+
+!ENTRY org.eclipse.core.resources 4 75 2012-07-06 11:01:04.965
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.cdt.managedbuilder.core 4 75 2012-07-06 11:01:04.965
+!MESSAGE Errors running builder 'CDT Builder' on project 'project03 (v01)'.
+!STACK 0
+java.lang.IllegalArgumentException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI.create(Unknown Source)
+	at java.net.URI.resolve(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.getArtifactTimeStamp(AdditionalInput.java:376)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.needsRebuild(AdditionalInput.java:337)
+	at org.eclipse.cdt.managedbuilder.internal.core.InputType.needsRebuild(InputType.java:1619)
+	at org.eclipse.cdt.managedbuilder.internal.core.Tool.needsRebuild(Tool.java:3307)
+	at org.eclipse.cdt.managedbuilder.internal.core.ToolChain.needsRebuild(ToolChain.java:2068)
+	at org.eclipse.cdt.managedbuilder.internal.core.FolderInfo.needsRebuild(FolderInfo.java:344)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1685)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1669)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performCleanning(CommonBuilder.java:936)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:858)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:739)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:501)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:450)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:432)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:305)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.<init>(Unknown Source)
+	... 29 more
+
+!ENTRY org.eclipse.core.resources 4 2 2012-07-06 11:01:32.605
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalArgumentException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI.create(Unknown Source)
+	at java.net.URI.resolve(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.getArtifactTimeStamp(AdditionalInput.java:376)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.needsRebuild(AdditionalInput.java:337)
+	at org.eclipse.cdt.managedbuilder.internal.core.InputType.needsRebuild(InputType.java:1619)
+	at org.eclipse.cdt.managedbuilder.internal.core.Tool.needsRebuild(Tool.java:3307)
+	at org.eclipse.cdt.managedbuilder.internal.core.ToolChain.needsRebuild(ToolChain.java:2068)
+	at org.eclipse.cdt.managedbuilder.internal.core.FolderInfo.needsRebuild(FolderInfo.java:344)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1685)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1669)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performCleanning(CommonBuilder.java:936)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:858)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:739)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:501)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:450)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:432)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:305)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.<init>(Unknown Source)
+	... 29 more
+
+!ENTRY org.eclipse.core.resources 4 75 2012-07-06 11:01:32.908
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.cdt.managedbuilder.core 4 75 2012-07-06 11:01:32.908
+!MESSAGE Errors running builder 'CDT Builder' on project 'project03 (v01)'.
+!STACK 0
+java.lang.IllegalArgumentException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI.create(Unknown Source)
+	at java.net.URI.resolve(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.getArtifactTimeStamp(AdditionalInput.java:376)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.needsRebuild(AdditionalInput.java:337)
+	at org.eclipse.cdt.managedbuilder.internal.core.InputType.needsRebuild(InputType.java:1619)
+	at org.eclipse.cdt.managedbuilder.internal.core.Tool.needsRebuild(Tool.java:3307)
+	at org.eclipse.cdt.managedbuilder.internal.core.ToolChain.needsRebuild(ToolChain.java:2068)
+	at org.eclipse.cdt.managedbuilder.internal.core.FolderInfo.needsRebuild(FolderInfo.java:344)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1685)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1669)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performCleanning(CommonBuilder.java:936)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:858)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:739)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:501)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:450)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:432)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:305)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.<init>(Unknown Source)
+	... 29 more
+
+!ENTRY org.eclipse.core.resources 4 2 2012-07-06 11:02:29.075
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalArgumentException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI.create(Unknown Source)
+	at java.net.URI.resolve(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.getArtifactTimeStamp(AdditionalInput.java:376)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.needsRebuild(AdditionalInput.java:337)
+	at org.eclipse.cdt.managedbuilder.internal.core.InputType.needsRebuild(InputType.java:1619)
+	at org.eclipse.cdt.managedbuilder.internal.core.Tool.needsRebuild(Tool.java:3307)
+	at org.eclipse.cdt.managedbuilder.internal.core.ToolChain.needsRebuild(ToolChain.java:2068)
+	at org.eclipse.cdt.managedbuilder.internal.core.FolderInfo.needsRebuild(FolderInfo.java:344)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1685)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1669)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performCleanning(CommonBuilder.java:936)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:858)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:739)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:501)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:450)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:432)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:305)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.<init>(Unknown Source)
+	... 29 more
+
+!ENTRY org.eclipse.core.resources 4 75 2012-07-06 11:02:29.401
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.cdt.managedbuilder.core 4 75 2012-07-06 11:02:29.401
+!MESSAGE Errors running builder 'CDT Builder' on project 'project03 (v01)'.
+!STACK 0
+java.lang.IllegalArgumentException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI.create(Unknown Source)
+	at java.net.URI.resolve(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.getArtifactTimeStamp(AdditionalInput.java:376)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.needsRebuild(AdditionalInput.java:337)
+	at org.eclipse.cdt.managedbuilder.internal.core.InputType.needsRebuild(InputType.java:1619)
+	at org.eclipse.cdt.managedbuilder.internal.core.Tool.needsRebuild(Tool.java:3307)
+	at org.eclipse.cdt.managedbuilder.internal.core.ToolChain.needsRebuild(ToolChain.java:2068)
+	at org.eclipse.cdt.managedbuilder.internal.core.FolderInfo.needsRebuild(FolderInfo.java:344)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1685)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1669)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performCleanning(CommonBuilder.java:936)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:858)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:739)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:501)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:450)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:432)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:305)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.<init>(Unknown Source)
+	... 29 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-07-06 11:03:11.110
+!MESSAGE Indexed 'project03' (0 sources, 37 headers) in 0.18 sec: 833 declarations; 890 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.06%)
+
+!ENTRY org.eclipse.core.resources 4 2 2012-07-06 11:04:59.937
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalArgumentException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI.create(Unknown Source)
+	at java.net.URI.resolve(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.getArtifactTimeStamp(AdditionalInput.java:376)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.needsRebuild(AdditionalInput.java:337)
+	at org.eclipse.cdt.managedbuilder.internal.core.InputType.needsRebuild(InputType.java:1619)
+	at org.eclipse.cdt.managedbuilder.internal.core.Tool.needsRebuild(Tool.java:3307)
+	at org.eclipse.cdt.managedbuilder.internal.core.ToolChain.needsRebuild(ToolChain.java:2068)
+	at org.eclipse.cdt.managedbuilder.internal.core.FolderInfo.needsRebuild(FolderInfo.java:344)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1685)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1669)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performCleanning(CommonBuilder.java:936)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:858)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:739)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:501)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:450)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:432)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:305)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.<init>(Unknown Source)
+	... 29 more
+
+!ENTRY org.eclipse.core.resources 4 75 2012-07-06 11:05:00.244
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.cdt.managedbuilder.core 4 75 2012-07-06 11:05:00.244
+!MESSAGE Errors running builder 'CDT Builder' on project 'project03 (v01)'.
+!STACK 0
+java.lang.IllegalArgumentException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI.create(Unknown Source)
+	at java.net.URI.resolve(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.getArtifactTimeStamp(AdditionalInput.java:376)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.needsRebuild(AdditionalInput.java:337)
+	at org.eclipse.cdt.managedbuilder.internal.core.InputType.needsRebuild(InputType.java:1619)
+	at org.eclipse.cdt.managedbuilder.internal.core.Tool.needsRebuild(Tool.java:3307)
+	at org.eclipse.cdt.managedbuilder.internal.core.ToolChain.needsRebuild(ToolChain.java:2068)
+	at org.eclipse.cdt.managedbuilder.internal.core.FolderInfo.needsRebuild(FolderInfo.java:344)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1685)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1669)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performCleanning(CommonBuilder.java:936)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:858)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:739)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:501)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:450)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:432)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:305)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.<init>(Unknown Source)
+	... 29 more
+
+!ENTRY org.eclipse.core.resources 4 2 2012-07-06 11:05:03.327
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.IllegalArgumentException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI.create(Unknown Source)
+	at java.net.URI.resolve(Unknown Source)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.getArtifactTimeStamp(AdditionalInput.java:376)
+	at org.eclipse.cdt.managedbuilder.internal.core.AdditionalInput.needsRebuild(AdditionalInput.java:337)
+	at org.eclipse.cdt.managedbuilder.internal.core.InputType.needsRebuild(InputType.java:1619)
+	at org.eclipse.cdt.managedbuilder.internal.core.Tool.needsRebuild(Tool.java:3307)
+	at org.eclipse.cdt.managedbuilder.internal.core.ToolChain.needsRebuild(ToolChain.java:2068)
+	at org.eclipse.cdt.managedbuilder.internal.core.FolderInfo.needsRebuild(FolderInfo.java:344)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1685)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.needsRebuild(Configuration.java:1669)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performCleanning(CommonBuilder.java:936)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:858)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:739)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:501)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:450)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:394)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:618)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:597)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:114)
+	at org.eclipse.cdt.launch.AbstractCLaunchDelegate.buildForLaunch(AbstractCLaunchDelegate.java:615)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.buildForLaunch(LocalCDILaunchDelegate.java:471)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:822)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 9: project03 (v01).exe
+	at java.net.URI$Parser.fail(Unknown Source)
+	at java.net.URI$Parser.checkChars(Unknown Source)
+	at java.net.URI$Parser.parseHierarchical(Unknown Source)
+	at java.net.URI$Parser.parse(Unknown Source)
+	at java.net.URI.<init>(Unknown Source)
+	... 35 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-07-06 11:34:19.604
+!MESSAGE Indexed 'project04v01' (0 sources, 37 headers) in 0.20 sec: 833 declarations; 890 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.06%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-07-06 11:34:41.598
+!MESSAGE Indexed 'project04_v01' (0 sources, 8 headers) in 0.02 sec: 0 declarations; 0 references; 8 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-07-06 11:35:24.450
+!MESSAGE Indexed 'project04_v01' (0 sources, 37 headers) in 0.20 sec: 833 declarations; 890 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.06%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-07-06 11:40:24.758
+!MESSAGE Indexed 'project04_v02' (0 sources, 37 headers) in 0.17 sec: 833 declarations; 890 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.06%)

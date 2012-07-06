@@ -1,0 +1,22 @@
+
+**** Build of configuration Debug for project project03 (v01) ****
+
+make all 
+Building file: ../program03.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"program03.d" -MT"program03.d" -o "program03.o" "../program03.c"
+cygwin warning:
+  MS-DOS style path detected: C:\Users\robotics\Desktop\C Programming\project03 (v01)\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/robotics/Desktop/C Programming/project03 (v01)/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../program03.c
+ 
+Building target: project03 (v01).exe
+Invoking: Cygwin C Linker
+gcc  -o "project03 (v01).exe"  ./program03.o   
+Finished building target: project03 (v01).exe
+ 
+
+**** Build Finished ****

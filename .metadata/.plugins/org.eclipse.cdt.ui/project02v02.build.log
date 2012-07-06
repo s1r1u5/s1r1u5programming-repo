@@ -1,0 +1,26 @@
+
+**** Build of configuration Debug for project project02v02 ****
+
+make all 
+Building file: ../program02.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"program02.d" -MT"program02.d" -o "program02.o" "../program02.c"
+cygwin warning:
+  MS-DOS style path detected: C:\Users\robotics\Desktop\C Programming\project02v02\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/robotics/Desktop/C Programming/project02v02/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+../program02.c: In function `main':
+../program02.c:16: warning: initialization makes integer from pointer without a cast
+../program02.c:19: warning: too many arguments for format
+../program02.c:19: warning: too many arguments for format
+Finished building: ../program02.c
+ 
+Building target: project02v02.exe
+Invoking: Cygwin C Linker
+gcc  -o "project02v02.exe"  ./program02.o   
+Finished building target: project02v02.exe
+ 
+
+**** Build Finished ****
