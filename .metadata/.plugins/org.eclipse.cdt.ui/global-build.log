@@ -1,16 +1,32 @@
 
-**** Build of configuration Debug for project project04_v02 ****
+**** Build of configuration Debug for project project04_v01 ****
 
 make all 
 Building file: ../program04.c
 Invoking: Cygwin C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"program04.d" -MT"program04.d" -o "program04.o" "../program04.c"
+cygwin warning:
+  MS-DOS style path detected: C:\Users\robotics\Desktop\GitHub\s1r1u5programming-repo\project04_v01\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/robotics/Desktop/GitHub/s1r1u5programming-repo/project04_v01/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+../program04.c: In function `main':
+../program04.c:20: warning: int format, pointer arg (arg 2)
+../program04.c:20: warning: int format, pointer arg (arg 2)
 Finished building: ../program04.c
  
-Building target: project04_v02.exe
+Building target: project04_v01.exe
 Invoking: Cygwin C Linker
-gcc  -o "project04_v02.exe"  ./program04.o   
-Finished building target: project04_v02.exe
+gcc  -o "project04_v01.exe"  ./program04.o   
+Finished building target: project04_v01.exe
  
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project project04_v01 ****
+
+make all 
+make: Nothing to be done for `all'.
 
 **** Build Finished ****

@@ -16,7 +16,7 @@ int main()
 
 	printf("Enter value for Switch 2: ");
 	scanf("%i", &s2state);
-	printf("\n")
+	printf("\n");
 	printf("Switch 2 Value: %i", &s2state);
 
 	return 0;
