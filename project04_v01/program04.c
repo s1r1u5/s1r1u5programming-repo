@@ -12,12 +12,12 @@
 
 int main()
 {
-	int s2state;
+	int s2state = 9;											/* Declare Integer with default value of Zero */
 
-	printf("Enter value for Switch 2: ");
-	scanf("%i", &s2state);
-	printf("\n");
-	printf("Switch 2 Value: %i", &s2state);
+	printf("Enter value for Switch 2: ");					/* Request value to give declared integer */
+	scanf("%i", &s2state);									/* Read value for declared integer */
+	printf("\n"); 											/* New Line */
+	printf("Switch 2 Value: %i", s2state);					/* Print value for declared integer */
 
 	return 0;
 }

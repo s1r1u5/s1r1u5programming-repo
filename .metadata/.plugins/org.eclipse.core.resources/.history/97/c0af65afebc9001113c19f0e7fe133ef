@@ -1,0 +1,12 @@
+//
+// program04.c
+// project04 (v01)
+//
+// This program is working with basic if statements
+//
+// Created by Geoffrey Lambeth on 07/06/12
+// Copyright (c) 2012 s1r1u5_programming. All rights reserved.
+//1
+#include <stdio.h>
+int main()
+{ int s2state; printf("Enter value for Switch 2: "); scanf("%i", &s2state); printf("\n"); printf("Switch 2 Value: %i", s2state); return 0;}

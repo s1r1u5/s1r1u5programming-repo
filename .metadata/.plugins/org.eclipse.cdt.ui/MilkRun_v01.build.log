@@ -1,0 +1,17 @@
+
+**** Build of configuration Debug for project MilkRun_v01 ****
+
+make all 
+Building file: ../milkrun.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"milkrun.d" -MT"milkrun.d" -o "milkrun.o" "../milkrun.c"
+../milkrun.c: In function `main':
+../milkrun.c:21: warning: format argument is not a pointer (arg 2)
+../milkrun.c:21: warning: format argument is not a pointer (arg 2)
+../milkrun.c:25: warning: format argument is not a pointer (arg 2)
+../milkrun.c:25: warning: format argument is not a pointer (arg 2)
+../milkrun.c:31: error: invalid lvalue in increment
+subdir.mk:18: recipe for target `milkrun.o' failed
+make: *** [milkrun.o] Error 1
+
+**** Build Finished ****
