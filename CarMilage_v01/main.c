@@ -13,17 +13,37 @@
 
 int main()
 {
-	float startmiles = 0;
-	float startgas = 0;
-	float MPG_start = startmiles / startgas;
-	float MPG_life = 0;
-	float lifemiles = 0;
+	float lifeTimeMiles = 0;														/* Defining Variables */
+	float lifeTimeGallons = 0;
+	float lastTankMiles = 0;
+	float lastTankGallons = 0;
+	int lifeTimeFillups = 0;
+	float lifeTimeMPG = 0;
+	float lastTankMPG = 0;
 
-	printf("Type the number of miles driver on this tank gas: ");
+while (1 == 1)																		/* Starting While Loop */
+
+{	printf("Type the number of miles driven on this tank gas: ");					/* Setting lastTankMiles */
 	fflush(stdout);
-	scanf("%f", startmiles);
+	scanf("%f", &lastTankMiles);
 
 	printf("Type the number of gallons in this tank: ");
 	fflush(stdout);
-	scanf("%f", startgas);
+	scanf("%f", &lastTankGallons);													/* Setting lastTankGallons */
+
+	lifeTimeMiles = lifeTimeMiles + lastTankMiles;									/* Calculations for lifeTimeMiles */
+	lifeTimeGallons = lifeTimeGallons + lastTankGallons;							/* Calculations for lifeTimeGallons */
+	lifeTimeFillups = lifeTimeFillups + 1;
+	lastTankMPG = lastTankMiles / lastTankGallons;
+	lifeTimeMPG = lifeTimeMiles / lifeTimeGallons;
+
+	printf("\nCurrent MPG is: %f \n", lastTankMPG);
+	fflush(stdout);
+	printf("Life Time MPG is: %f \n", lifeTimeMPG);
+	fflush(stdout);
+	printf("Total fill ups is: %i \n\n\n\n\n", lifeTimeFillups);
+	fflush(stdout);
+}
+
+return 0;
 }
