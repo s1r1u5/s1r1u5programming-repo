@@ -1,0 +1,28 @@
+
+**** Build of configuration Debug for project 17 Jul7 2012 ****
+
+make all 
+Building file: ../main.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+cygwin warning:
+  MS-DOS style path detected: C:\Users\robotics\Desktop\GitHub\s1r1u5programming-repo\17 Jul7 2012\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/robotics/Desktop/GitHub/s1r1u5programming-repo/17 Jul7 2012/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+../main.c: In function `main':
+../main.c:12: warning: format argument is not a pointer (arg 2)
+../main.c:12: warning: format argument is not a pointer (arg 2)
+../main.c:16: warning: format argument is not a pointer (arg 2)
+../main.c:16: warning: format argument is not a pointer (arg 2)
+../main.c:8: warning: unused variable `dim3'
+Finished building: ../main.c
+ 
+Building target: 17 Jul7 2012.exe
+Invoking: Cygwin C Linker
+gcc  -o "17 Jul7 2012.exe"  ./main.o   
+Finished building target: 17 Jul7 2012.exe
+ 
+
+**** Build Finished ****

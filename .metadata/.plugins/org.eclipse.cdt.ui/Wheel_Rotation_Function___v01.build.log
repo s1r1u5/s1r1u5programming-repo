@@ -1,0 +1,28 @@
+
+**** Build of configuration Debug for project Wheel_Rotation_Function___v01 ****
+
+make all 
+Building file: ../degree.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"degree.d" -MT"degree.d" -o "degree.o" "../degree.c"
+cygwin warning:
+  MS-DOS style path detected: C:\Users\robotics\Desktop\GitHub\s1r1u5programming-repo\Wheel_Rotation_Function___v01\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/robotics/Desktop/GitHub/s1r1u5programming-repo/Wheel_Rotation_Function___v01/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+../degree.c: In function `main':
+../degree.c:23: warning: format argument is not a pointer (arg 2)
+../degree.c:23: warning: format argument is not a pointer (arg 2)
+../degree.c:27: warning: format argument is not a pointer (arg 2)
+../degree.c:27: warning: format argument is not a pointer (arg 2)
+../degree.c:15: warning: unused variable `circ'
+../degree.c: At top level:
+../degree.c:38: error: parse error before '{' token
+../degree.c:40: warning: type defaults to `int' in declaration of `deg'
+../degree.c:40: warning: data definition has no type or storage class
+../degree.c:41: error: parse error before "return"
+subdir.mk:18: recipe for target `degree.o' failed
+make: *** [degree.o] Error 1
+
+**** Build Finished ****
