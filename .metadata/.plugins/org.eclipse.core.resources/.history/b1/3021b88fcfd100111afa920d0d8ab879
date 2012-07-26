@@ -1,0 +1,34 @@
+//
+// pointers___v01
+// main.c
+//
+// program that changes the value of a pointer variable
+//
+
+#include <stdio.h>
+
+int main()
+{
+	float var1 = 58.98;				// Declare and initialize two float variables
+	float var2 = 70.44;
+
+	float *ptr_var;					// Declare a float pointer variable
+
+	ptr_var = &var1;
+
+	printf("\nThe first value is (var1): %f", *ptr_var);
+	printf("\nThe address of the first data is %p", ptr_var);
+	printf("\nThen let the same pointer (*ptr_var)");
+	printf("point to another address...\n");
+
+	ptr_var = &var2;													// make ptr_var point to variable 2
+
+	printf("\nThe second value is (var2): %f", *ptr_var);
+	printf("The address of the second data is %p", ptr_var);
+
+	ptr_var = NULL;
+	// printf("\nAfter setting pointer to NULL %f", *ptr_var);
+	printf("\nThe address of NULL is %p", ptr_var);
+
+	return 0;
+}

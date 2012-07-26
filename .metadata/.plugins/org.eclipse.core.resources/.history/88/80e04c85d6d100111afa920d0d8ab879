@@ -1,0 +1,16 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 19, 2012
+ *      Author: robotics
+ */
+// time_demo.c
+
+#include <time.h>
+#include <stdio.h>
+#include <unistd.h>
+
+int main()
+{
+	return 0;
+}

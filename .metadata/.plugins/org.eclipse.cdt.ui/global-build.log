@@ -1,34 +1,12 @@
 
-**** Build of configuration Debug for project Wheel_Rotation_Function___v02 ****
-
-make all 
-Building file: ../degree.c
-Invoking: Cygwin C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"degree.d" -MT"degree.d" -o "degree.o" "../degree.c"
-cygwin warning:
-  MS-DOS style path detected: C:\Users\robotics\Desktop\GitHub\s1r1u5programming-repo\Wheel_Rotation_Function___v02\Debug
-  Preferred POSIX equivalent is: /cygdrive/c/Users/robotics/Desktop/GitHub/s1r1u5programming-repo/Wheel_Rotation_Function___v02/Debug
-  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
-  Consult the user's guide for more details about POSIX paths:
-    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
-Finished building: ../degree.c
- 
-Building target: Wheel_Rotation_Function___v02.exe
-Invoking: Cygwin C Linker
-gcc  -o "Wheel_Rotation_Function___v02.exe"  ./degree.o   
-Finished building target: Wheel_Rotation_Function___v02.exe
- 
-
-**** Build Finished ****
-
-**** Build of configuration Debug for project Wheel_Rotation_Function___v02 ****
+**** Build of configuration Debug for project Date_And_Time_v02 ****
 
 make all 
 make: Nothing to be done for `all'.
 
 **** Build Finished ****
 
-**** Build of configuration Debug for project Wheel_Rotation_Function___v02 ****
+**** Build of configuration Debug for project Date_And_Time_v02 ****
 
 make all 
 make: Nothing to be done for `all'.

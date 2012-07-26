@@ -1,0 +1,30 @@
+//
+// Basic_C_Project___v01
+// main.c
+//
+// Written by Geoffrey Lambeth on 7/19/2012
+//
+// copyright (c) 2012. All rights reserved
+//
+
+#include <stdio.h>
+
+float myFunction(float x);
+
+int main()
+{
+	float inputValue, outputValue;
+
+	inputValue = 42.0;
+
+	outputValue = myFunction(inputValue);
+
+	printf("Results are: %f", outputValue);
+
+	return 0;
+}
+
+float myFunction(float x)
+{
+	return x * x;
+}
