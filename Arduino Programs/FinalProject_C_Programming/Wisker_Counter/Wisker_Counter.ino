@@ -3,6 +3,8 @@
 Servo servoRight;
 Servo servoLeft;
 
+int wiskCount = 0;
+
 void setup()
 {
   servoLeft.attach(11);
@@ -21,17 +23,21 @@ void loop()
   r5 = digitalRead(5);
   r7 = digitalRead(7);
   
-  if ((r5 == 1) && (r7 == 1))
-  {  
+  if ((wiskCount < 10) && (r5 == 1) && (r7 == 1))
+  {
     moveF(100);
-    r5 = digitalRead(5);
-    r7 = digitalRead(7);
   }
   else
   {
-    moveB(1500);
-    turnR(3175);
+    moveB(1000);
+    wiskCount = wiskCount + 1;
+    if (wiskCount == 10)
+    {
     disableServos();
+    tone(4, 3000, 1000);
+    }
+    {
+    }
   }
 }
 
